@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Engineering Portfolio</title>
+
+  <style>
+
+    /* General Styles */
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      background: #f4f6f8;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background: #0a3d62;
+
+      color: white;
+
+      padding: 1.5rem;
+
+      text-align: center;
+
+    }
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 2rem;
+
+    }
+
+    nav {
+
+      background: #1e3799;
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 0.5rem;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      margin: 0 15px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+      text-decoration: underline;
+
+    }
+
+    section {
+
+      padding: 2rem;
+
+      max-width: 900px;
+
+      margin: auto;
+
+    }
+
+    .card {
+
+      background: white;
+
+      border-radius: 10px;
+
+      padding: 1.5rem;
+
+      margin-bottom: 1.5rem;
+
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    }
+
+    footer {
+
+      background: #0a3d62;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 1rem;
+
+      margin-top: 2rem;
+
+    }
+
+    button {
+
+      background: #1e3799;
+
+      color: white;
+
+      border: none;
+
+      padding: 10px 15px;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+    }
+
+    button:hover {
+
+      background: #0c2461;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>My Engineering Portfolio</h1>
+
+    <p>Showcasing Projects & Skills</p>
+
+  </header>
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#skills">Skills</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <section id="about">
+
+    <div class="card">
+
+      <h2>About Me</h2>
+
+      <p>Hello! I’m an engineering student passionate about technology, problem-solving, and creating impactful projects.</p>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <div class="card">
+
+      <h2>Skills</h2>
+
+      <ul>
+
+        <li>Programming: C, C++, Python, JavaScript</li>
+
+        <li>Web Development: HTML, CSS, React</li>
+
+        <li>CAD Tools: AutoCAD, SolidWorks</li>
+
+        <li>Problem Solving & Algorithms</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <div class="card">
+
+      <h2>Projects</h2>
+
+      <ul>
+
+        <li><b>Smart Irrigation System:</b> IoT-based water saving project.</li>
+
+        <li><b>Portfolio Website:</b> Personal website built using HTML, CSS, JS.</li>
+
+        <li><b>Bridge Design Simulation:</b> Structural analysis project.</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <div class="card">
+
+      <h2>Contact</h2>
+
+      <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+
+      <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourprofile</a></p>
+
+      <button onclick="showMessage()">Click Me</button>
+
+      <p id="msg"></p>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>© 2025 My Engineering Portfolio | All Rights Reserved</p>
+
+  </footer>
+
+  <script>
+
+    // Simple JavaScript function
+
+    function showMessage() {
+
+      document.getElementById("msg").innerText = "Thank you for visiting my portfolio!";
+
+    }
+
+  </script>
+
+</body>
+
+</html>
